@@ -69,8 +69,27 @@ Class _HomePageState extends State<HomePageState> {
 			//sizedBox
 			SizedBox(height:25),
 
+
+			// horizontal list view of coffee tiles
+			Container(
+				child:ListView(
+				scrollDirection: Axis.horizontal,
+				childrens: [
+				 	CoffeePill(coffee_name:'latte'),
+				 	CoffeePill(coffee_name:'capputino'),	
+				],
+			 ),
+			),
+
 			//horizontal list Tiles of coffee
-			
+			Expanded(
+				child:ListView(
+				scrollDirection: Axis.horizontal,
+				childrens: [
+				 	CoffeeCard(),	
+				],
+			 ),
+			),
 
 		 );
 	}
