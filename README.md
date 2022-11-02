@@ -1,13 +1,16 @@
-# coffee_UI_flutter
-Simple UI for a coffee app copied off Dribble
+# coffee
 
-## Setup
- a. clone repo `git clone <repo-name>`.
+A new Flutter project.
 
- b. get all dependencies `flutter pub get`.
+## Getting Started
 
- c. run the project `flutter run`, `flutter run -d android` or `flutter run -d edge`.
+This project is a starting point for a Flutter application.
 
-![Model](https://github.com/Phant0m-a/coffee_UI_flutter/blob/main/sample/coffee_app.JPG)
+A few resources to get you started if this is your first Flutter project:
 
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
